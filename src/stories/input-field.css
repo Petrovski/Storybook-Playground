@@ -1,0 +1,22 @@
+label {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input:focus {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 12px 0px;
+  border: 2px solid black;
+}
